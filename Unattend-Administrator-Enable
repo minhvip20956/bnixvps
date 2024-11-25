@@ -1,0 +1,5 @@
+<RunSynchronousCommand wcm:action="add">
+  <Path>net user administrator /active:yes</Path>
+  <Order>1</Order>
+  <Description>Enable Administrator User</Description>
+</RunSynchronousCommand>
