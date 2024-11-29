@@ -1,1 +1,5 @@
 https://github.com/Raphire/Win11Debloat
+
+
+dism /Online /Cleanup-Image /AnalyzeComponentStore
+dism /online /Cleanup-Image /StartComponentCleanup
