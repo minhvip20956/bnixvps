@@ -8,10 +8,9 @@ del /s /f /q C:\Windows\Temp\*.*
 
 del /s /f /q %USERPROFILE%\appdata\local\temp\*.*
 
-schtasks.exe /Run /TN "\Microsoft\Windows\Servicing\StartComponentCleanup"
-
 Dism.exe /online /Cleanup-Image /StartComponentCleanup
 
+Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase
 
 /Below command to Show the folder after deleted files
 
